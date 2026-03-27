@@ -3,6 +3,9 @@ title: "Transferring Data to a Public ArcGIS Online Account"
 layout: "home"
 description: "This tutorial provides step-by-step guidance on how to transfer work on ArcGIS Online from a University of Toronto (UofT) institutional account to the free (aka ‘public’) version of the service."
 permalink: "/"  #! Remove this if not the homepage
+maintainer:
+ - name: Cole White
+   link: https://library.utoronto.ca/staff/cole-white
 ---
 
 # Transferring Data to a Public ArcGIS Online Account
