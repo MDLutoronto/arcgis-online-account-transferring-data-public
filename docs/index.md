@@ -4,8 +4,9 @@ layout: "home"
 description: "This tutorial provides step-by-step guidance on how to transfer work on ArcGIS Online from a University of Toronto (UofT) institutional account to the free (aka ‘public’) version of the service."
 permalink: "/"  #! Remove this if not the homepage
 maintainer:
- - name: Cole White
-   link: https://library.utoronto.ca/staff/cole-white
+    - name: Cole White
+      link: https://library.utoronto.ca/staff/cole-white
+created_date: 2025-05-30
 ---
 
 # Transferring Data to a Public ArcGIS Online Account
@@ -61,7 +62,7 @@ While ArcGIS Online supports a variety of export formats, public accounts only s
 
 ## Exporting Data from Item Page
 
-1. Log in to [ArcGIS Online](https://www.arcgis.com/sharing/oauth2/authorize?client_id=arcgisonline&response_type=code&state=%7B%22portalUrl%22%3A%22https%3A%2F%2Fwww.arcgis.com%22%2C%22uid%22%3A%22Eae4_LWCvrMN4HneelAeKdOsBBEPtvoRlAZMJG33ecw%22%2C%22useLandingPage%22%3Atrue%2C%22clientId%22%3A%22arcgisonline%22%7D&expiration=20160&locale=en-us&redirect_uri=https%3A%2F%2Fwww.arcgis.com%2Fhome%2Faccountswitcher-callback.html&force_login=true&redirectToUserOrgUrl=true&code_challenge=G5qu2wdtERhd8NB7wWeVriyIZeRVm6Aqu1YTsKbDJ64&code_challenge_method=S256&display=default&hideCancel=true&showSignupOption=true&canHandleCrossOrgSignIn=true&signuptype=esri&allow_verification=true) using organization’s URL and UTORid account (see instructions [here](https://mdl.library.utoronto.ca/technology/tutorials/logging-arcgis-online)).
+1. Log in to [ArcGIS Online](https://www.arcgis.com/sharing/oauth2/authorize?client_id=arcgisonline&response_type=code&state=%7B%22portalUrl%22%3A%22https%3A%2F%2Fwww.arcgis.com%22%2C%22uid%22%3A%22Eae4_LWCvrMN4HneelAeKdOsBBEPtvoRlAZMJG33ecw%22%2C%22useLandingPage%22%3Atrue%2C%22clientId%22%3A%22arcgisonline%22%7D&expiration=20160&locale=en-us&redirect_uri=https%3A%2F%2Fwww.arcgis.com%2Fhome%2Faccountswitcher-callback.html&force_login=true&redirectToUserOrgUrl=true&code_challenge=G5qu2wdtERhd8NB7wWeVriyIZeRVm6Aqu1YTsKbDJ64&code_challenge_method=S256&display=default&hideCancel=true&showSignupOption=true&canHandleCrossOrgSignIn=true&signuptype=esri&allow_verification=true) using organization’s URL and UTORid account (see instructions [here](https://mdlutoronto.github.io/arcgis-online-log-in/)).
 
 2. Go to **Content** tab, navigate and click on the item in **Feature layer (hosted)** format.
 
@@ -164,12 +165,12 @@ While ArcGIS Online supports a variety of export formats, public accounts only s
 
 If you are interested in learning more about preserving GIS projects, transferring data from ArcGIS Online, or continuing your mapping projects using free GIS tools, consider exploring the following resources:
 
-* The Map & Data Library offers [tutorials](https://mdl.library.utoronto.ca/support/tutorials-search) for [QGIS](https://qgis.org/), a free and open\-source GIS software available for everyone.
+* The Map & Data Library offers [tutorials](https://mdlutoronto.github.io/tutorials-search/) for [QGIS](https://qgis.org/), a free and open\-source GIS software available for everyone.
 * You can [download publicly shared data in shapefile format](https://support.esri.com/en-us/knowledge-base/how-to-download-publicly-shared-data-from-arcgis-online-000015899) from ArcGIS Online to your local machine for use in other GIS platforms.
 * Contact the Map & Data Library for further assistance at [mdl@library.utoronto.ca](mailto:mdl@library.utoronto.ca).
 
  
 
-Technique: [Converting data formats](/technique/converting-data-formats), [Extracting data](/technique/extracting-data) \| Tools: [ArcGIS Online](/taxonomy/term/69)
+**Technique:** [Converting data formats](/technique/converting-data-formats), [Extracting data](/technique/extracting-data) \| **Tools:** [ArcGIS Online](/taxonomy/term/69)
 
-**Date Created:** 2025\-05\-30 **Updated:** 2025\-05\-30
+
