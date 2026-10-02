@@ -35,7 +35,7 @@ To transfer data from an institutional ArcGIS Online account to a public (free) 
 
 More complex items (e.g. web maps, StoryMaps) **cannot** be exported in full. To transfer these, you will need to manually download the individual assets (e.g., spatial layers, images, audio files) and recreate the item in your public account.
 
-If you need assistance transferring a StoryMap or Instant App to your public account, please contact us using the [support form](https://mdl.library.utoronto.ca/about/contact). Note that certain applications (e.g. Experience Builder, Dashboards, Survey123\) are **not** supported in public accounts.
+If you need assistance transferring a StoryMap or Instant App to your public account, please contact us using the [support form](https://library.utoronto.ca/contact-us/data-maps). Note that certain applications (e.g. Experience Builder, Dashboards, Survey123\) are **not** supported in public accounts.
 
 ## Exporting Tools
 
@@ -50,14 +50,14 @@ We will cover two exporting tools in this tutorial: ***Export Data*** function o
 Exported files may take some time to process and might not be fully restorable in a public ArcGIS Online account. For the tools covered in this tutorial, please note the following common limitations:
 
 * The time to export data from ArcGIS Online varies significantly depending on the size of the dataset, the internet connection, and the chosen export format. It can take anywhere from a few minutes to several hours, or even longer for large datasets.
-* Some specialized layer types (e.g., raster layers, time\-enabled layers, or certain 3D layers) may not be compatible with both tools.
+* Some specialized layer types (e.g., raster layers, time-enabled layers, or certain 3D layers) may not be compatible with both tools.
 
 ## Format Considerations
 
 While ArcGIS Online supports a variety of export formats, public accounts only support uploading files in **CSV**, **KML**, and **GeoJSON** formats. When transferring data to a public ArcGIS Online account, it is important to understand the limitations of each supported file format:
 
 * **GeoJSON**: Full feature properties (such as symbology and styles) may not be preserved during export/import. To maintain the same visual representation in the new map project, manual adjustments will be required after import.
-* **KML**: While visible features are generally preserved, KML offers limited post\-import editing capabilities. For example, you will not be able to adjust styles or configure pop\-ups within ArcGIS Online after the import.
+* **KML**: While visible features are generally preserved, KML offers limited post-import editing capabilities. For example, you will not be able to adjust styles or configure pop\-ups within ArcGIS Online after the import.
 * **CSV**: Only non\-spatial attributes are retained unless the file includes latitude and longitude columns. Without spatial data, the CSV file cannot be imported as a spatial layer into a new map project.
 
 ## Exporting Data from Item Page
@@ -105,7 +105,7 @@ While ArcGIS Online supports a variety of export formats, public accounts only s
 
  
 
-6. Click **Estimate Credits** to check if you have enough credits. To view your remaining credits, click your **profile** in the top right corner, go to **My Settings**, and then select **Credits**. If you don’t have enough credits to run the tool, please contact the Map and Data Library using the [support form](https://mdl.library.utoronto.ca/about/contact-form).
+6. Click **Estimate Credits** to check if you have enough credits. To view your remaining credits, click your **profile** in the top right corner, go to **My Settings**, and then select **Credits**. If you don’t have enough credits to run the tool, please contact the Map and Data Library using the [support form](https://library.utoronto.ca/contact-us/data-maps).
 
 7. Make sure you have enough credits, and click **Run**.
 
@@ -115,7 +115,7 @@ While ArcGIS Online supports a variety of export formats, public accounts only s
 
  
 
-9. Once the task is completed, click on the task record. In the open tab, click the three\-dot icon and select **Open Item Details**.
+9. Once the task is completed, click on the task record. In the open tab, click the three-dot icon and select **Open Item Details**.
 
     <img src='{{ '/assets/images/B9.PNG' | relative_url }}' alt="In the open tab, click the three-dot icon next to the extracted item, then click 'Open item details'" title='' width='645' height='280' />
 
@@ -165,12 +165,12 @@ While ArcGIS Online supports a variety of export formats, public accounts only s
 
 If you are interested in learning more about preserving GIS projects, transferring data from ArcGIS Online, or continuing your mapping projects using free GIS tools, consider exploring the following resources:
 
-* The Map & Data Library offers [tutorials](https://mdlutoronto.github.io/tutorials-search/) for [QGIS](https://qgis.org/), a free and open\-source GIS software available for everyone.
+* The Map & Data Library offers [tutorials](https://mdlutoronto.github.io/tutorials-search/) for [QGIS](https://qgis.org/), a free and open-source GIS software available for everyone.
 * You can [download publicly shared data in shapefile format](https://support.esri.com/en-us/knowledge-base/how-to-download-publicly-shared-data-from-arcgis-online-000015899) from ArcGIS Online to your local machine for use in other GIS platforms.
 * Contact the Map & Data Library for further assistance at [mdl@library.utoronto.ca](mailto:mdl@library.utoronto.ca).
 
  
 
-**Technique:** [Converting data formats](/technique/converting-data-formats), [Extracting data](/technique/extracting-data) \| **Tools:** [ArcGIS Online](/taxonomy/term/69)
+**Technique:** [Converting data formats](/technique/converting-data-formats), [Extracting data](/technique/extracting-data) | **Tools:** [ArcGIS Online](/taxonomy/term/69)
 
 
