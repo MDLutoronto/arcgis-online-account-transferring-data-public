@@ -11,11 +11,11 @@ created_date: 2025-05-30
 
 # Transferring Data to a Public ArcGIS Online Account
 
-This tutorial provides step\-by\-step guidance on how to transfer work on ArcGIS Online from a University of Toronto (UofT) institutional account to the free (aka ‘public’) version of the service.
+This tutorial provides step-by-step guidance on how to transfer work on ArcGIS Online from a University of Toronto (UofT) institutional account to the free (aka ‘public’) version of the service.
 
-Due to the [University of Toronto ArcGIS Online Data Retention Policy](https://mdl.library.utoronto.ca/technology/gis-software/arcgis-online-data-retention-policy) (effective January 1, 2024\), the Map & Data Library now conducts data cleanups on a regular basis. As part of this process, UofT user accounts that have not been accessed for over 12 months may be deleted, along with all associated content (e.g., datasets, maps, apps).
+Due to the [University of Toronto ArcGIS Online Data Retention Policy](https://library.utoronto.ca/policy/university-toronto-arcgis-online-data-retention-policy-0) (effective January 1, 2024), the Map & Data Library now conducts data cleanups on a regular basis. As part of this process, UofT user accounts that have not been accessed for over 12 months may be deleted, along with all associated content (e.g., datasets, maps, apps).
 
-To support the long\-term preservation of ArcGIS projects for individuals who are no longer affiliated with the university, this tutorial is intended to assist UofT students, faculty, and staff in transferring and storing work in a personal (public) account.
+To support the long-term preservation of ArcGIS projects for individuals who are no longer affiliated with the university, this tutorial is intended to assist UofT students, faculty, and staff in transferring and storing work in a personal (public) account.
 
 ### **Tables of Contents**
 
@@ -57,8 +57,8 @@ Exported files may take some time to process and might not be fully restorable i
 While ArcGIS Online supports a variety of export formats, public accounts only support uploading files in **CSV**, **KML**, and **GeoJSON** formats. When transferring data to a public ArcGIS Online account, it is important to understand the limitations of each supported file format:
 
 * **GeoJSON**: Full feature properties (such as symbology and styles) may not be preserved during export/import. To maintain the same visual representation in the new map project, manual adjustments will be required after import.
-* **KML**: While visible features are generally preserved, KML offers limited post-import editing capabilities. For example, you will not be able to adjust styles or configure pop\-ups within ArcGIS Online after the import.
-* **CSV**: Only non\-spatial attributes are retained unless the file includes latitude and longitude columns. Without spatial data, the CSV file cannot be imported as a spatial layer into a new map project.
+* **KML**: While visible features are generally preserved, KML offers limited post-import editing capabilities. For example, you will not be able to adjust styles or configure pop-ups within ArcGIS Online after the import.
+* **CSV**: Only non-spatial attributes are retained unless the file includes latitude and longitude columns. Without spatial data, the CSV file cannot be imported as a spatial layer into a new map project.
 
 ## Exporting Data from Item Page
 
@@ -171,6 +171,6 @@ If you are interested in learning more about preserving GIS projects, transferri
 
  
 
-**Technique:** [Converting data formats](/technique/converting-data-formats), [Extracting data](/technique/extracting-data) | **Tools:** [ArcGIS Online](/taxonomy/term/69)
+**Technique:** [Converting data formats](https://mdlutoronto.github.io/tutorials-search/?technique=Converting+data+formats), [Extracting data](https://mdlutoronto.github.io/tutorials-search/?technique=Extracting+data) | **Tools:** [ArcGIS Online](https://mdlutoronto.github.io/tutorials-search/?tool=ArcGIS+Online)
 
 
